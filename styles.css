@@ -74,13 +74,14 @@ button:active {
   flex-direction: column;
   align-items: center;
   padding: 3vh 6vh;
-  gap: 1.25vh;
+  gap: 2vh;
 }
 
+
 .data {
-  width: 100%;
-  text-align: justify;
-  text-align-last: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
 }
 
 @media (max-width: 724px) {
@@ -125,5 +126,9 @@ button:active {
   h3 {
     font-size: 12px;
     text-align: center;
+  }
+
+  .dimension {
+    padding: 3vh 3vh;
   }
 }
